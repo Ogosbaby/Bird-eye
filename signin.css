@@ -96,16 +96,20 @@ color: orange;
 }
 @media (max-width: 1060px) {
     .signup-form{
-        width: 80%;
+        width: 90%;
         display: block;
-        margin: 25% auto;
+        margin: 18% auto;
     }
     .logo{
        margin-top: 20%;
+       text-align: center;
     }
     .signup-form input[type="submit"]{
     padding: 0.5rem;
-        left: 72%;
+    margin-top: 5%;
+    border-radius: 20px;
+    left: 0;
+    width: 100%;
 
        }
        .signup-form input[type="submit"]:hover{
@@ -115,13 +119,35 @@ color: orange;
        .registered-user{
         padding: 0.5rem;
        }
-        body{
-            background: url("/mySlackPic.jpg");
-            
-            font-family: 'Poppins', sans-serif;
-            color: var(--text-color);
-            letter-spacing: 1px;
-        }
+
+    
+    }
+@media (max-width: 760px) {
+    .signup-form{
+        width: 80%;
+        display: block;
+        margin: 25% auto;
+    }
+    .logo{
+       margin-top: 20%;
+       text-align: center;
+    }
+    .signup-form input[type="submit"]{
+    padding: 0.5rem;
+    margin-top: 5%;
+    border-radius: 20px;
+    left: 0;
+        width: 100%;
+
+       }
+       .signup-form input[type="submit"]:hover{
+       background-color: #f5f5f5ea;
+       transition: 0.3s;
+       }
+       .registered-user{
+        padding: 0.5rem;
+       }
+
     
     }
 
